@@ -1,0 +1,21 @@
+aiohttp==3.8.4
+aiosignal==1.3.1
+async-timeout==4.0.2
+attrs==23.1.0
+Brotli==1.0.9
+certifi==2023.5.7
+cffi==1.15.1
+charset-normalizer==3.1.0
+discord.py==2.2.3
+frozenlist==1.3.3
+idna==3.4
+multidict==6.0.4
+mutagen==1.46.0
+pycparser==2.21
+pycryptodomex==3.18.0
+PyNaCl==1.5.0
+python-dotenv==1.0.0
+websockets==11.0.3
+yarl==1.9.2
+youtube-dl==2021.12.17
+yt-dlp @ https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz#sha256=6895e355af4db817b826fea906a65f96bb17411ec7bcfcd23f4d197b43a281d5
