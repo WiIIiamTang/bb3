@@ -29,7 +29,7 @@ class Music(commands.Cog):
         await ctx.send(f"Now playing: {query}")
 
     @commands.command(aliases=["dp"])
-    async def download_and_play(self, ctx, *, url):
+    async def dplay(self, ctx, *, url):
         """Downloads and plays from a url"""
 
         async with ctx.typing():
@@ -69,7 +69,7 @@ class Music(commands.Cog):
         await ctx.voice_client.disconnect()
 
     @play.before_invoke
-    @download_and_play.before_invoke
+    @dplay.before_invoke
     @play_local.before_invoke
     async def ensure_voice(self, ctx):
         if ctx.voice_client is None:

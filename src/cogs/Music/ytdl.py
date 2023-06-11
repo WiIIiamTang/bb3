@@ -28,7 +28,7 @@ ffmpeg_options = {
 class YTDLSource(discord.PCMVolumeTransformer):
     ytdl = youtube_dl.YoutubeDL(ytdl_format_options)
 
-    def __init__(self, source, *, data, volume=1.0):
+    def __init__(self, source, *, data, volume=0.75):
         super().__init__(source, volume)
 
         self.data = data
