@@ -17,5 +17,4 @@ PyNaCl==1.5.0
 python-dotenv==1.0.0
 websockets==11.0.3
 yarl==1.9.2
-youtube-dl==2021.12.17
-yt-dlp @ https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz#sha256=6895e355af4db817b826fea906a65f96bb17411ec7bcfcd23f4d197b43a281d5
+yt-dlp==2023.3.4
