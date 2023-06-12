@@ -106,7 +106,7 @@ class Music(commands.Cog):
         """Sends a related song from a url"""
 
         related = await youtube_related.async_fetch(url)
-        related_id = random.choice(related).get("id")
+        related_id = related[0].get("id")
         await ctx.send(f"https://www.youtube.com/watch?v={related_id}")
 
     @commands.command()
